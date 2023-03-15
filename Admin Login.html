@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>
+<title>ADMIN LOGIN FORM (CY-CODERS)</title>
+</head>
+<body>
+
+<section>
+<div class="form-box">
+<div class="form-value">
+<form action="">
+
+<h3>ADMIN LOGIN</h3>
+
+<div class="inputbox">
+<ion-icon name="mail-outline"></ion-icon>
+<input type="email" required>
+<label for="">E-Mail</label>
+</div>
+
+<div class="inputbox">
+<ion-icon name="lock-closed-outline"></ion-icon>
+<input type="password" required>
+<label for="">Password</label>
+</div>
+
+<div class="forget">
+<label for=""><input type="checkbox">Remember My Login Info</label>
+</div>
+<button> <font color : "white"> LOG IN </font></button>
+
+
+
+ <div class="logo-container">
+      <img src="https://drive.google.com/uc?export=view&id=1T-6d-ekBWzs4KK2KL61yQgjAdQQmFpfz" alt="Adamas University Logo">
+    </div>
+
+ <div>
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Adamas_University_Logo.png" alt="Adamas University Logo" style="position: absolute; top: 20px; left: 20px; height: 90px;">
+    </div>
+
+<style>
+
+{
+margin: 0;
+padding: 0;
+font-family:'noto',sans serif;
+}
+
+section{
+
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+width: 100%;
+
+background: linear-gradient(to bottom right, #FFEFD5, #D8BFD8);
+height: 100vh;
+margin: 0; 
+}
+
+.form-box{
+
+position: relative;
+height: 400px;
+width: 450px;
+background: transparent;
+border: 2px solid rgba(0,0,0,0.5);
+border-radius: 20px;
+backdrop-filter: blur(15px);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+h3{
+
+font-size: 2ef;
+color: #000000;
+text-align: center;
+
+}
+
+.inputbox{
+
+position: relative;
+margin: 30px 0;
+width: 310px;
+border-bottom: 2px solid #000000;
+
+}
+
+.inputbox label{
+
+position: absolute;
+top: 50%;
+left: 5px;
+transform: translateY(-50%);
+colour: #000000;
+font-size: 1em;
+pointer-events: none;
+transition: .5s;
+
+}
+
+input:focus ~ label,
+input:valid ~ label{
+
+top: -5px;
+
+}
+
+.inputbox input{
+
+width: 100%;
+height: 50px;
+background: transparent;
+border: none;
+outline: none;
+font-size: 1em;
+padding: 0 35px 0 5px;
+color: #000000;
+
+}
+
+.inputbox ion-icon{
+
+position: absolute;
+right: 8px;
+color: #000000;
+font-size: 1.2em;
+top: 20px;
+
+}
+
+.forget{
+
+margin: -15px 0 15px;
+font-size: .9em;
+color: #000000;
+display: flex;
+justify-content: center;
+
+}
+
+.forget label input{
+
+margin-right: 3px;
+
+}
+
+button{
+
+width: 100%;
+height: 40px;
+border-radius: 40px;
+background: #DDA0DD;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 1em;
+font-weight: 500;
+
+}
+
+ .logo-container {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        height: 90px;
+      }
+
+      .logo-container img {
+        height: 100%;
+      }
+
+</style>
+
+
+
+</form>
+</div>
+</section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
